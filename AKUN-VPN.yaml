@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: hsp1.htmlcdn.net
     udp: true
-    - name: FAST🇮🇩
+  - name: hsp🇮🇩
     server: 172.67.5.14
     port: 80
     type: vmess
