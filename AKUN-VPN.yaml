@@ -1,1 +1,17 @@
-
+proxies:
+  - name: hsp1.htmlcdn.net
+    server: 172.67.5.14
+    port: 80
+    type: vmess
+    uuid: 441374d0-3520-11ef-aee9-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: hsp1.htmlcdn.net
+    network: ws
+    ws-opts:
+      path: /api/v1/token/hetoken/worryfree
+      headers:
+        Host: hsp1.htmlcdn.net
+    udp: true
