@@ -1,21 +1,37 @@
 proxies:
-  - name: hsp1.htmlcdn.net
+  - name: SGGS🇸🇬
     server: 172.67.5.14
     port: 80
     type: vmess
-    uuid: 441374d0-3520-11ef-aee9-1577c1651679
+    uuid: 5c881fe0-51ac-11ef-a478-1577c1651679
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: hsp1.htmlcdn.net
+    servername: 2.htmlcdn.net
     network: ws
     ws-opts:
-      path: /api/v1/token/hetoken/worryfree
+      path: /worryfree
       headers:
-        Host: hsp1.htmlcdn.net
+        Host: 2.htmlcdn.net
     udp: true
-  - name: hsp🇮🇩
+  - name: SG HE🇸🇬
+    server: 172.67.5.14
+    port: 80
+    type: vmess
+    uuid: 9e6bced0-51ac-11ef-b943-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 10.lowh.net
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: 10.lowh.net
+    udp: true
+  - name: HSP🇮🇩
     server: 172.67.5.14
     port: 80
     type: vmess
