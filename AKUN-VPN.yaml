@@ -60,3 +60,16 @@ proxies:
       headers:
         Host: sg-4.test3.net
     udp: true
+  - name: hsp2
+    server: 172.67.5.14
+    port: 443
+    type: trojan
+    password: 44d82cb0-52f0-11ef-b40f-1577c1651679
+    skip-cert-verify: true
+    sni: hsp2.htmlcdn.net
+    network: ws
+    ws-opts:
+      path: /welcome
+      headers:
+        Host: hsp2.htmlcdn.net
+    udp: true
